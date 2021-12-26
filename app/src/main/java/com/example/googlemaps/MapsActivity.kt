@@ -37,13 +37,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
 
-        /*val latitude = 31.17362277962086
+        val latitude = 31.17362277962086
         val longitude = 31.217646242327707
         val homeLatLng = LatLng(latitude, longitude)
 
         val zoomLevel = 15f
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(homeLatLng, zoomLevel))
-        map.addMarker(MarkerOptions().position(homeLatLng))*/
+        map.addMarker(MarkerOptions().position(homeLatLng))
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
